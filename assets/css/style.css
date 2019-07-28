@@ -12,6 +12,8 @@ body {
     min-height: 100%;
     position: relative;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 body, a {
     color: #777;
@@ -29,6 +31,8 @@ div.header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
 div.content {
     position: relative;
@@ -130,4 +134,36 @@ div.content a.card div {
     width: 240px;
     text-align: center;
     color: #fff;
+}
+
+@media (max-width: 980px) {
+    body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div.header {
+        text-align: center;
+    }
+    div.header span.banner, div.header span.nav {
+        display: block;
+    }
+    div.header span.nav {
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
