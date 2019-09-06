@@ -74,6 +74,12 @@ div.footer {
     color: #fff;
     text-align: center;
 }
+div.footer a {
+    color: #fff;
+}
+div.footer a:hover {
+    text-decoration: none;
+}
 
 div.header-wrapper div.header {
     position: relative;
