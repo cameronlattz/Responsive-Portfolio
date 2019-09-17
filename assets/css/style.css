@@ -128,7 +128,7 @@ div.content p img {
     margin-bottom: 25px;
 }
 div.content img {
-    width: 240px;
+    width: 228px;
 }
 div.content input, div.content textarea {
     width: 100%;
@@ -156,7 +156,7 @@ div.content a.card div {
     margin-bottom: 0px;
     margin-top: 0px;
     background-color: #4aaaa5;
-    width: 240px;
+    width: 100%;
     text-align: center;
     color: #fff;
     transition: bottom 0.5s;
