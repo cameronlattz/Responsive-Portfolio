@@ -5,6 +5,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+a:hover {
+    text-decoration: none;
+}
 body {
     background: url("../images/concrete_seamless.png");
     color: #999;
